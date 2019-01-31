@@ -6,7 +6,7 @@
 $family-sans-serif: "Quicksand", sans-serif;
 $primary: rgb(13, 29, 170);
 $body-size: 16px;
-$size-1:6rem;
+$size-1:8rem;
 $size-2:4rem;
 $size-3:3rem;
 $size-4:2.25rem;
@@ -25,6 +25,12 @@ $size-7:0.75rem;
   background: 
   radial-gradient(circle 80vw at top right, rgb(255, 240, 175), rgba(255, 246, 208, 0.5), rgba(255, 253, 245, 0.2), transparent),
   linear-gradient(rgba(100, 195, 250, 0.8), rgba(18, 57, 182, 0.8));
+}
+
+.has-background-sunset {
+  background: 
+  radial-gradient(100vw 40vh at bottom, rgba(253, 83, 10, 0.6),   rgba(248, 156, 117, 0.5), transparent),
+  linear-gradient(rgba(148, 80, 236, 0.8), rgba(189, 98, 238, 0.8), rgba(248, 156, 117, 0.8));
 }
 
 #column3 {
