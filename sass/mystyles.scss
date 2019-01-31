@@ -1,16 +1,23 @@
 
 @charset "utf-8";
-@import "../node_modules/bulma/bulma.sass";
 // Import a Google Font
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,500');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,500');
 // Update Bulma's global variables
-$family-sans-serif: "Montserrat", sans-serif;
-   $primary: rgb(13, 29, 170);
+$family-sans-serif: "Quicksand", sans-serif;
+$primary: rgb(13, 29, 170);
+$body-size: 16px;
+$size-1:6rem;
+$size-2:4rem;
+$size-3:3rem;
+$size-4:2.25rem;
+$size-5:1.5rem;
+$size-6:1.25rem;
+$size-7:0.75rem;
 
 // Update some of Bulma's component variables
-$body-background-color: white;
-$control-border-width: 2px;
-$input-border-color: white;
+//$body-background-color: white;
+// $control-border-width: 2px;
+// $input-border-color: white;
 
 // Background images for app
 .has-background {
@@ -20,5 +27,9 @@ $input-border-color: white;
 }
 
 
+
+
+
 // Import only what you need from Bulma
-    //To-do at project end
+    //To edit at project end
+    @import "../node_modules/bulma/bulma.sass";
