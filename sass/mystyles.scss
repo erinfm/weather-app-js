@@ -17,10 +17,18 @@ $size-7:0.75rem;
 
 // Update some of Bulma's component variables
 //$body-background-color: white;
-// $control-border-width: 2px;
-// $input-border-color: white;
+$control-border-width: 2px;
+$input-border-color: white;
 
 // Background images for app
+
+// Default background
+.has-background {
+  background: 
+  radial-gradient(circle 80vw at top right, rgb(255, 240, 175), rgba(255, 246, 208, 0.5), rgba(255, 253, 245, 0.2), transparent),
+  linear-gradient(rgba(100, 195, 250, 0.8), rgba(18, 57, 182, 0.8));
+}
+
 .has-background-day-cool {
   background: 
   radial-gradient(circle 80vw at top right, rgb(255, 240, 175), rgba(255, 246, 208, 0.5), rgba(255, 253, 245, 0.2), transparent),
@@ -29,11 +37,11 @@ $size-7:0.75rem;
 
 .has-background-day-warm {
   background: 
-  radial-gradient(100vw 60vh at top, rgba(138, 15, 1, 0.4),   rgba(128, 20, 2, 0.3), transparent),
+  radial-gradient(100vw 60vh at top, rgba(161, 16, 0, 0.4),   rgba(187, 30, 2, 0.3), transparent),
   linear-gradient(rgba(194, 21, 0, 0.8), rgba(255, 166, 0, 0.8));
 }
 
-.has-background-sunset {
+.has-background-snow-mist {
   background: 
   radial-gradient(100vw 40vh at bottom, rgba(253, 83, 10, 0.6),   rgba(240, 140, 98, 0.5), transparent),
   linear-gradient(rgba(142, 68, 238, 0.8), rgba(184, 86, 236, 0.8), rgba(240, 140, 98, 0.8));
