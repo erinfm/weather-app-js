@@ -1,7 +1,7 @@
 
 @charset "utf-8";
 // Import a Google Font
-@import url('https://fonts.googleapis.com/css?family=Quicksand:300,500');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500');
 // Update Bulma's global variables
 $family-sans-serif: "Quicksand", sans-serif;
 $primary: rgb(13, 29, 170);
@@ -21,16 +21,33 @@ $size-7:0.75rem;
 // $input-border-color: white;
 
 // Background images for app
-.has-background {
+.has-background-day-cool {
   background: 
   radial-gradient(circle 80vw at top right, rgb(255, 240, 175), rgba(255, 246, 208, 0.5), rgba(255, 253, 245, 0.2), transparent),
   linear-gradient(rgba(100, 195, 250, 0.8), rgba(18, 57, 182, 0.8));
 }
 
+.has-background-day-warm {
+  background: 
+  radial-gradient(100vw 60vh at top, rgba(138, 15, 1, 0.4),   rgba(128, 20, 2, 0.3), transparent),
+  linear-gradient(rgba(194, 21, 0, 0.8), rgba(255, 166, 0, 0.8));
+}
+
 .has-background-sunset {
   background: 
-  radial-gradient(100vw 40vh at bottom, rgba(253, 83, 10, 0.6),   rgba(248, 156, 117, 0.5), transparent),
-  linear-gradient(rgba(148, 80, 236, 0.8), rgba(189, 98, 238, 0.8), rgba(248, 156, 117, 0.8));
+  radial-gradient(100vw 40vh at bottom, rgba(253, 83, 10, 0.6),   rgba(240, 140, 98, 0.5), transparent),
+  linear-gradient(rgba(142, 68, 238, 0.8), rgba(184, 86, 236, 0.8), rgba(240, 140, 98, 0.8));
+}
+
+.has-background-night {
+  background: 
+  radial-gradient(100vw 60vh at top, rgba(15, 1, 32, 0.4),   rgba(45, 13, 87, 0.4), transparent),
+  linear-gradient(rgba(0, 4, 40, 0.9), rgba(0, 78, 144, 0.9),);
+}
+
+.has-background-night-purple {
+  background: 
+  linear-gradient(rgba(39, 7, 82, 1), rgba(65, 19, 126, 1), rgba(192,60,80, 1));
 }
 
 #column3 {
