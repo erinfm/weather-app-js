@@ -127,3 +127,6 @@ $RECYCLE.BIN/
 
 # ignore CSS files #
 **/*.css
+
+## Others
+.vscode/launch.json
