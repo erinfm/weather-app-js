@@ -9,6 +9,7 @@ Fetches and displays current weather data for a user-given city. Uses vanilla Ja
 
 ```
 npm install
+npm run css-build
 ```
 
 ### Known issues (todo list!)
