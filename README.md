@@ -10,3 +10,7 @@ Fetches and displays current weather data for a user-given city. Uses vanilla Ja
 ```
 npm install
 ```
+
+### Known issues (todo list!)
+* Clicking "Get Weather" button does not fetch matching cities. Workaround: Press enter on input field 
+* (intermittent) Clicking "Get Weather" button causes page refresh.
