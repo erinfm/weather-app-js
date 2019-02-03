@@ -11,7 +11,7 @@
 </head>
 
 <body>
-  <section id="cityInputPage" class="hero is-fullheight has-background-night-purple">
+  <section id="cityInputPage" class="hero is-fullheight has-background-default">
     <div class="hero-body">
       <div class="container">
         <h1 class="title is-3 has-text-white has-text-weight-normal">
@@ -19,16 +19,17 @@
         </h1>
         <div class="control">
           <input id="inputField" name="citiesInput" class="input is-medium" type="text" placeholder="Weather in..."
-            list="datalist">
+            autofocus="autofocus" list="datalist">
           <datalist id="datalist"></datalist>
         </div>
         <br>
-        <a class="button is-info is-normal is-inverted is-outlined is-fullwidth" id="weatherBtn">Get Weather</a>
+        <a class="button is-info is-normal is-inverted is-outlined is-fullwidth" id="weatherBtn">Get
+          Weather</a>
       </div>
     </div>
   </section>
 
-  <section id="weatherDataPage" class="hero is-fullheight has-background is-hidden is-uppercase">
+  <section id="weatherDataPage" class="hero is-fullheight has-background-default is-hidden is-uppercase">
     <div class="hero-body">
       <div id="weatherDataContainer" class="columns">
         <div id="column1" class="column is-two-fifths is-inline-block">
@@ -36,7 +37,7 @@
         <div id="column2" class="column is-two-fifths content is-marginless">
         </div>
         <div id="column3" class="column is-one-fifth content">
-          <a class="button is-info is-normal is-inverted is-outlined " id="returnBtn">Search Again</a>
+          <a type="button" class="button is-info is-normal is-inverted is-outlined " id="returnBtn">Search Again</a>
         </div>
       </div>
     </div>
