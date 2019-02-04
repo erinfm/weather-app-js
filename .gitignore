@@ -1,4 +1,5 @@
-### Ignore extracode.js file ###
+### Ignore config.js and extracode.js ###
+config.js
 extracode.js
 
 ### Node ###
