@@ -12,7 +12,7 @@ npm run css-build
 ```
 
 ### Create config.js
-To use, create config.js file containing the following:
+To use, first create config.js file containing the following:
 
 ```
 const config = {
